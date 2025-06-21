@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude specific files or directories that should not be backed up.
+         For example, you can exclude shared preferences that contain GCM registration Ids
+         for your app since those are generated per instance of the app installation.
+         See https://developer.android.com/guide/topics/data/autobackup for more details. -->
+</full-backup-content> 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        <!-- Тело персонажа -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M30,60 L78,60 L78,90 L30,90 Z"/>
+        <!-- Голова -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M35,40 L73,40 L73,60 L35,60 Z"/>
+        <!-- Глаза -->
+        <path
+            android:fillColor="@color/black"
+            android:pathData="M42,45 L48,45 L48,50 L42,50 Z"/>
+        <path
+            android:fillColor="@color/black"
+            android:pathData="M60,45 L66,45 L66,50 L60,50 Z"/>
+        <!-- Платформа -->
+        <path
+            android:fillColor="@color/green"
+            android:pathData="M20,95 L88,95 L88,100 L20,100 Z"/>
+    </group>
+</vector> 
