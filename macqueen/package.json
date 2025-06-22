@@ -1,0 +1,20 @@
+{
+  "name": "macqueen-ts",
+  "version": "1.0.0",
+  "description": "AI Racing Game (MacQueen) на TypeScript",
+  "homepage": "https://Caplia199.github.io/VibeCode-Projects/macqueen",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url /VibeCode-Projects/macqueen/",
+    "start": "parcel",
+    "dev": "parcel src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "sh ./deploy.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "parcel": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
